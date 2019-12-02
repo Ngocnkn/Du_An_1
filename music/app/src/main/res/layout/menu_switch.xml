@@ -5,4 +5,4 @@
     android:layout_height="match_parent"
     android:gravity="right|center_vertical"
     app:buttonTint="@color/colorPrimary"
-    app:switchPadding="@dimen/activity_horizontal_margin" />
+     />

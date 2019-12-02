@@ -4,6 +4,7 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:fitsSystemWindows="true">
 
     <RelativeLayout
@@ -15,12 +16,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
-
-            <include
-                layout="@layout/layout_actionbar_main"
-                android:layout_width="match_parent"
-                android:layout_height="60dp" />
-
 
         </com.google.android.material.appbar.AppBarLayout>
 
@@ -74,14 +69,6 @@
 
     </RelativeLayout>
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/navigation"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:background="#ffffff"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/layout_heard_nav"
-        app:menu="@menu/menu_navigation" />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

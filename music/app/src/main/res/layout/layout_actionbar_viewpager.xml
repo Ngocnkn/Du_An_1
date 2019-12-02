@@ -30,7 +30,7 @@
             android:textSize="20dp"
             android:visibility="visible" />
 
-        <android.support.v7.widget.SearchView
+        <androidx.appcompat.widget.SearchView
             android:id="@+id/edt_search"
             android:textColorHint="@android:color/white"
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:textColor="@android:color/white"
             android:textSize="20dp"
             android:visibility="invisible"
-            app:queryHint="@string/search_hint" />
+             />
     </FrameLayout>
 
 
